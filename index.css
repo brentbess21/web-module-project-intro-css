@@ -1,0 +1,151 @@
+/* My CSS  */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@300&display=swap');
+
+
+html {
+    font-size: 62.5%;
+    
+}
+
+body{
+    font-family:'Roboto Mono', monospace;
+}
+
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6.5rem;
+ 
+}
+
+em {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+nav {
+
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 1.5% 20px 2%;
+    margin: 30px 7%;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* box-sizing: border-box; */
+}
+
+
+header p {
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+header div {
+   
+    display:block;
+}
+
+header img {
+    display: inline-block;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 8%;
+    margin-top: 40px;
+   /* image isn't centered in the circle --look into that */
+}
+
+footer img {
+    width: 100%;
+    height: 22vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.plan {
+    
+    background-color:#FF764E ;
+    color: white;
+}
+
+.learn {
+    background-color:#5ED3EB;
+    color: white;
+}
+
+.involved {
+    background-color: #FFCD69;
+    color: white;
+}
+
+.info{
+    background-color: #DDB9A3;
+    color: white;
+    width: 90%;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px 30px;
+    text-align: center;
+    margin: 10px auto 30px;
+}
+
+.image {
+    width: 100%;
+}
+
+.parkGuide h1 {
+    text-align: center;
+    width: 100%;
+    margin-left: 6%;
+    margin-top: -220px;
+    margin-bottom: 100px;
+}
+
+.subHeading1{
+    text-align: center;
+    width: 100%;
+    margin-left: 6%;
+    margin-top: -180px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 110px;
+}
+
+.subHeading2 {
+    text-align: center;
+    width: 100%;
+    margin-left: 6%;
+    margin-top: -180px;
+    margin-bottom: 280px;
+    position: relative;
+    top: 220px;
+}
+
+
+.emoji {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.emoji p {
+    width: 20%;
+    margin: 15px auto 50px;
+}
+
+.emoji img {
+    width: 120px;
+}
